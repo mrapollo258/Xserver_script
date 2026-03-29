@@ -1,9 +1,9 @@
 name: XServer Extend Schedule
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # Runs every 24 hours at 00:00 UTC
-  workflow_dispatch: # Allows manual trigger
+#on:
+  #schedule:
+    #- cron: '0 0 * * *' # Runs every 24 hours at 00:00 UTC
+  #workflow_dispatch: # Allows manual trigger
 
 jobs:
   extend-server:
